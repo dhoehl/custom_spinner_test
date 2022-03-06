@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021. Dennis Höhl. All rights reserved
+  -->
+
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--This normally should go to nunito.xml with a font weight of 300 but is not useable that way in lower APIs
+    as textFontWeight was added in API 28-->
+    <font
+        app:font="@font/nunito_light"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        app:font="@font/nunito_semi_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+</font-family>
